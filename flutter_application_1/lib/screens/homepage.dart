@@ -4,9 +4,7 @@ import 'package:flutter_application_1/screens/home.dart';
 import 'package:flutter_application_1/screens/home1.dart';
 
 class Home1 extends StatefulWidget {
-  final Map<String, dynamic> data;
-
-  Home1({required this.data});
+  Home1({super.key});
 
   @override
   _Home1State createState() => _Home1State();
@@ -36,9 +34,6 @@ class _Home1State extends State<Home1> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Home'),
-      ),
       body: _pages[_selectedIndex],
       bottomNavigationBar: BottomNavigationBar(
         items: const <BottomNavigationBarItem>[

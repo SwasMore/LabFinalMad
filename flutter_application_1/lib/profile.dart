@@ -47,110 +47,9 @@ class _ProfileScreenState extends State<ProfileScreen> {
             ),
             Text("21 years old"),
             Text("Student"),
-            SizedBox(height: 10),
+            SizedBox(height: 14),
             Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Row(
-                children: [
-                  Text("Interests",
-                      style: TextStyle(
-                        color: Colors.black,
-                      ),
-                      textScaleFactor: 1.5),
-                ],
-              ),
-            ),
-            SizedBox(height: 10),
-            Row(
-              children: [
-                SizedBox(width: 10),
-                Container(
-                  color: Color.fromARGB(255, 94, 119, 172),
-                  padding: EdgeInsets.all(
-                      8), // Add padding to give space around the text
-                  child: Text(
-                    "Singing",
-                    style: TextStyle(
-                        color: Colors.white), // Set text color to white
-                  ),
-                ),
-                SizedBox(width: 10),
-                Container(
-                  color: Color.fromARGB(255, 94, 119, 172),
-                  padding: EdgeInsets.all(8),
-                  child: Text(
-                    "Dancing",
-                    style: TextStyle(color: Colors.white),
-                  ),
-                ),
-                SizedBox(width: 8),
-                Container(
-                  color: Color.fromARGB(255, 94, 119, 172),
-                  padding: EdgeInsets.all(8),
-                  child: Text(
-                    "Machine Learning",
-                    style: TextStyle(color: Colors.white),
-                  ),
-                ),
-                SizedBox(width: 8),
-                Container(
-                  color: Color.fromARGB(255, 94, 119, 172),
-                  padding: EdgeInsets.all(8),
-                  child: Text(
-                    "Painting",
-                    style: TextStyle(color: Colors.white),
-                  ),
-                ),
-                SizedBox(width: 8),
-              ],
-            ),
-            SizedBox(height: 2),
-            Row(
-              children: [
-                SizedBox(width: 10),
-                Container(
-                  color: Color.fromARGB(255, 94, 119, 172),
-                  padding: EdgeInsets.all(
-                      8), // Add padding to give space around the text
-                  child: Text(
-                    "Animals",
-                    style: TextStyle(
-                        color: Colors.white), // Set text color to white
-                  ),
-                ),
-                SizedBox(width: 8),
-                Container(
-                  color: Color.fromARGB(255, 94, 119, 172),
-                  padding: EdgeInsets.all(8),
-                  child: Text(
-                    "Books",
-                    style: TextStyle(color: Colors.white),
-                  ),
-                ),
-                SizedBox(width: 8),
-                Container(
-                  color: Color.fromARGB(255, 94, 119, 172),
-                  padding: EdgeInsets.all(8),
-                  child: Text(
-                    " Technology ",
-                    style: TextStyle(color: Colors.white),
-                  ),
-                ),
-                SizedBox(width: 8),
-                Container(
-                  color: Color.fromARGB(255, 94, 119, 172),
-                  padding: EdgeInsets.all(8),
-                  child: Text(
-                    "  Guitar playing ",
-                    style: TextStyle(color: Colors.white),
-                  ),
-                ),
-                SizedBox(width: 8),
-              ],
-            ),
-            SizedBox(height: 20),
-            Padding(
-              padding: const EdgeInsets.all(8.0),
+              padding: const EdgeInsets.all(10.0),
               child: Row(
                 children: [
                   Text(
@@ -196,12 +95,6 @@ class _ProfileScreenState extends State<ProfileScreen> {
                       "Phone                                                          01985169907"),
                 ],
               ),
-            ),
-            IconButton(
-              icon: Icon(Icons.add),
-              iconSize: 36.0,
-              color: Colors.black,
-              onPressed: () {},
             ),
           ],
         ),

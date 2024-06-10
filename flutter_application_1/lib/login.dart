@@ -58,7 +58,7 @@ class _LoginScreenState extends State<LoginScreen> {
     print(decoded['data']);
 
     Navigator.of(context)
-        .push(MaterialPageRoute(builder: (context) => const HomePage()));
+        .push(MaterialPageRoute(builder: (context) => Home1()));
   }
 
   @override
@@ -80,9 +80,8 @@ class _LoginScreenState extends State<LoginScreen> {
             Text(
               'Login',
               style: GoogleFonts.concertOne(
-                textStyle: TextStyle(fontSize: 45, color: Colors.blueGrey),
+                textStyle: TextStyle(fontSize: 45, color: Colors.indigoAccent),
                 fontWeight: FontWeight.w100,
-                fontStyle: FontStyle.italic,
               ),
             ),
             TextFormField(
